@@ -1,0 +1,237 @@
+/*Base*/
+
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+
+
+/*Navigation*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+ul.nav-list {
+  float: right;
+}
+
+li.nav-button {
+ float: left; 
+}
+
+.nav-link {
+  display: block;
+  vertical-align: top;
+  height: 80px;
+  line-height: 80px;
+  padding-right: 40px;
+  color: #575756;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #ff7900;
+}
+
+.dest:before {
+  height: 80px;
+  margin-top: -80px;
+  content: " ";
+  display: block;
+}
+
+#nav-bar {
+  overflow: hidden;
+  width: 100vw;
+  height: 80px;
+  background-color: #dadada;
+  border-bottom: 3px solid #009FDA;
+  position: fixed;
+  top: 0;
+}
+
+#header-img {
+  display: inline-block;
+  vertical-align: top;
+  height: 70px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+  #about-text {
+    font-size: 10px;
+  }
+}
+
+/*Main Content*/
+#about-us {
+  background-image: url(https://hubble.imgix.net/listings/uploads/spaces/3419/1524496938319-1001_madesimple_017.jpg?h=630&w=1200&fit=crop);
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-text {
+  text-align: center;
+  width: 50%;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+}
+
+#how-it-works {
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+}
+
+#how-header {
+  margin-top: 40px;
+}
+
+#all-icons{
+  margin: auto;
+  width: 500px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 60px;
+  color: #FF7900; 
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.step {
+  padding-left: 40px;
+  margin-bottom: 40px;
+}
+
+
+
+#memberships {
+  width: 100vw;
+  text-align: center;
+  display: block;
+}
+
+#plan-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#hot-desk, #fixed-desk, #private-office {
+  text-align: center;
+  margin:20px 20px 40px 20px;
+  width: 300px;
+  height: 400px;
+  border: 1px solid;
+  background-color: #fff;
+  box-shadow: 6px 6px 10px;
+}
+
+.prod-name { 
+  background-color: #dadada;
+  height: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+li.feature {
+  padding: 10px;
+}
+
+.enquire-btn {
+  background-color: #ff7900;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border: 0;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 14px 18px;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+#contact-us {
+  text-align: center;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width:40%;
+  vertical-align: top;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.userinfo {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  width: 40%;
+  margin-bottom: 30px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.submit-btn {
+  background-color: white;
+  margin-bottom: 20px;
+  border: 1px solid #ff7900;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+}
+
+#form {
+  padding-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 1px solid;
+  box-shadow: 6px 6px 10px #dadada;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  width: 100vw;
+  height: 150px;
+  background-color: #dadada;
+}
